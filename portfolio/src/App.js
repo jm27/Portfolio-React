@@ -1,13 +1,12 @@
-import React from 'react';
-import Navbar from './Core/Navbar';
-
+import React ,{Fragment} from "react";
+import Navbar from "./Core/Navbar";
+import Section from "./Core/Section";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
       <Navbar></Navbar>
-      </header>
+      <Section></Section>
     </div>
   );
 }

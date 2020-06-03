@@ -14,10 +14,29 @@ const Navbar = () => (
           aria-hidden="true"
         ></i>
       </a>
-      <h3>Jesus Esquer</h3>
-      <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">
-        Search
-      </button>
+      <div>
+        <a
+          href="mailto:jme2791@gmail.com?Subject=Hello"
+          target="_blank"
+          class="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a
+          href="https://github.com/jm27"
+          target="_blank"
+          class="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/j-esquer/"
+          target="_blank"
+          class="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
+        >
+          <i class="fab fa-linkedin fa-fw"></i>
+        </a>
+      </div>
     </nav>
   </div>
 );

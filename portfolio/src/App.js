@@ -1,12 +1,12 @@
 import React ,{Fragment} from "react";
 import Navbar from "./Core/Navbar";
-import Section from "./Core/Section";
+import Intro from "./Sections/Intro";
 
 function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <Section></Section>
+      <Intro></Intro>
     </div>
   );
 }

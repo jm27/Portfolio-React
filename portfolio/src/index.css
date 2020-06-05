@@ -2,13 +2,13 @@
 #spin {
   color: #7510f7;
 }
-.social{
-  font-size: 1.40rem;
+.social {
+  font-size: 1.4rem;
 }
 /* Button */
 .btn-outline-primary {
   border-color: #7510f7 !important;
-  color: #7510f7 
+  color: #7510f7;
 }
 .btn-outline-primary:hover,
 .btn-outline-primary:active,
@@ -18,14 +18,21 @@
   border-color: #7510f7 !important;
 }
 /* Section intro */
-.intro{
-  height:41em;
-display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 0px;
+.intro {
+  color:#141C3A;
+  height: 41em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0px;
 }
-.container-intro{
-  grid-column: 2;
+.container-intro {
+  grid-column: 1 / span2;
   grid-row: 2;
+}
+#name {
+  font-family: "Fira Code", monospace;
+}
+#title {
+  font-family: "Roboto Slab", serif;
 }

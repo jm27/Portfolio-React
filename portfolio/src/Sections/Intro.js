@@ -3,12 +3,13 @@ import Section from "../Core/Section";
 
 const Intro = () => {
   return (
-      <section className='intro'>
-    <div className="container-fluid container-intro text-center">
-      <h2>Jesus Esquer</h2>
-      <hr></hr>
-      <h3>Full Stack Developer</h3>
-    </div>
+    <section className="intro">
+      <div className="container container-intro text-center">
+       
+        <h1 id="name">Jesus Esquer</h1>
+        <hr></hr>
+        <h3 id="title">Web Developer</h3>
+      </div>
     </section>
   );
 };

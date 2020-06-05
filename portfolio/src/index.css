@@ -17,3 +17,15 @@
   background-color: #7510f7 !important;
   border-color: #7510f7 !important;
 }
+/* Section intro */
+.intro{
+  height:41em;
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0px;
+}
+.container-intro{
+  grid-column: 2;
+  grid-row: 2;
+}

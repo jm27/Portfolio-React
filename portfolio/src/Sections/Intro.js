@@ -1,14 +1,19 @@
 import React from "react";
-import Section from "../Core/Section";
 
 const Intro = () => {
   return (
-    <section className="intro">
-      <div className="container container-intro text-center">
-       
+    <section className="intro justify-content-center text-center">
+      <div
+        className="container container-intro
+        mb-4"
+      >
+        <img alt="anon" src={require("../media/anon.png")}></img>
         <h1 id="name">Jesus Esquer</h1>
         <hr></hr>
-        <h3 id="title">Web Developer</h3>
+        <h3 id="title">Front-End Developer</h3>
+      </div>
+      <div id="accs">
+        <img alt="accs" src={require("../media/hero.svg")}></img>
       </div>
     </section>
   );

@@ -18,23 +18,23 @@ const Navbar = () => (
         <a
           href="mailto:jme2791@gmail.com?Subject=Hello"
           target="_blank"
-          class="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
+          className="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
         >
-          <i class="fas fa-envelope"></i>
+          <i className="fas fa-envelope"></i>
         </a>
         <a
           href="https://github.com/jm27"
           target="_blank"
-          class="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
+          className="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
         >
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/j-esquer/"
           target="_blank"
-          class="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
+          className="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
         >
-          <i class="fab fa-linkedin fa-fw"></i>
+          <i className="fab fa-linkedin fa-fw"></i>
         </a>
       </div>
     </nav>

@@ -40,3 +40,13 @@
 #title {
   font-family: "Roboto Slab", serif;
 }
+/* Section Profile */
+.profile {
+  color: #ffffff;
+  background: #7510f7;
+  height: 41em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0px;
+}

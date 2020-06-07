@@ -19,6 +19,9 @@ const Navbar = () => (
           href="mailto:jme2791@gmail.com?Subject=Hello"
           target="_blank"
           className="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Send me an E-mail"
         >
           <i className="fas fa-envelope"></i>
         </a>
@@ -26,15 +29,21 @@ const Navbar = () => (
           href="https://github.com/jm27"
           target="_blank"
           className="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Check my Github"
         >
-          <i className="fab fa-github"></i>
+          <i className="fab fa-github-alt"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/j-esquer/"
           target="_blank"
           className="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Let's connect with Linkedin"
         >
-          <i className="fab fa-linkedin fa-fw"></i>
+          <i className="fab fa-linkedin-in"></i>
         </a>
       </div>
     </nav>

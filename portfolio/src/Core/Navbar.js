@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => (
   <div>
-    <nav className="navbar fixed-top navbar-light bg-none">
+    <nav className="navbar navbar-light bg-none">
       <a
         className="navbar-brand"
         href="https://fontawesome.com/icons/"

@@ -30,6 +30,15 @@
   grid-column: 1;
   grid-row: 1;
 }
+.hr-intro {
+  margin-left: 9em;
+  margin-right: 9em;
+  border-color: #7510f7!important;
+    border-top-color: #7510f7 !important;
+    border-right-color: #7510f7 !important;
+    border-bottom-color: #7510f7 !important;
+    border-left-color: #7510f7 !important;
+}
 #accs {
   grid-column: 1;
   grid-row: 2;
@@ -40,6 +49,7 @@
 #title {
   font-family: "Roboto Slab", serif;
 }
+
 /* Section Profile */
 .profile {
   color: #ffffff;
@@ -49,4 +59,28 @@
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
   gap: 0px;
+}
+.container-profile {
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: auto;
+}
+.profile-title {
+  font-family: "Fira Code", monospace;
+}
+.description {
+  font-family: "Roboto Slab", serif;
+  font-size: large;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  #accesories {
+    width: 100%;
+    height: fit-content;
+  }
+  .hr-intro {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

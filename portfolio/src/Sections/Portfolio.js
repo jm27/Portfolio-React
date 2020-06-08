@@ -40,20 +40,18 @@ const Portfolio = () => (
           repoLink="https://github.com/jm27/Etch-A-Sketch"
         ></Card>
         <Card
-          cardImg={require("../media/e-commerce.jpg")}
-          cardTitle="E-commerce"
-          cardText="
-            MERN Stack React Node MongoDB Express powered E-Commerce App with PayPal and Credit Card Payment along with Admin Dashboard!"
-          deployedLink="https://ecomlearnshop.com/"
-          repoLink="https://github.com/jm27/E-Commerce-MERN"
+          cardImg={require("../media/clicky-game.png")}
+          cardTitle="React Clicky-Game"
+          cardText="A game of memory where you have to click different images of Programming languages, Built with React.js and CSS"
+          deployedLink="https://jm27.github.io/react-clicky-game/"
+          repoLink="https://github.com/jm27/react-clicky-game"
         ></Card>
         <Card
-          cardImg={require("../media/e-commerce.jpg")}
-          cardTitle="E-commerce"
-          cardText="
-            MERN Stack React Node MongoDB Express powered E-Commerce App with PayPal and Credit Card Payment along with Admin Dashboard!"
-          deployedLink="https://ecomlearnshop.com/"
-          repoLink="https://github.com/jm27/E-Commerce-MERN"
+          cardImg={require("../media/burger.png")}
+          cardTitle="Eat-the-Burger"
+          cardText="CRUD App bild a burger of your choice. Built with JavaScript, CSS, HTMl and SQL DB"
+          deployedLink="https://burger-app-jm27.herokuapp.com/"
+          repoLink="https://github.com/jm27/burger"
         ></Card>
       </div>
     </div>

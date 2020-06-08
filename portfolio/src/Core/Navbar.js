@@ -7,6 +7,7 @@ const Navbar = () => (
         className="navbar-brand"
         href="https://fontawesome.com/icons/"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <i
           id="spin"
@@ -18,6 +19,7 @@ const Navbar = () => (
         <a
           href="mailto:jme2791@gmail.com?Subject=Hello"
           target="_blank"
+          rel="noopener noreferrer"
           className="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
           data-toggle="tooltip"
           data-placement="bottom"
@@ -28,6 +30,7 @@ const Navbar = () => (
         <a
           href="https://github.com/jm27"
           target="_blank"
+          rel="noopener noreferrer"
           className="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
           data-toggle="tooltip"
           data-placement="bottom"
@@ -38,6 +41,7 @@ const Navbar = () => (
         <a
           href="https://www.linkedin.com/in/j-esquer/"
           target="_blank"
+          rel="noopener noreferrer"
           className="btn social mr-2 btn-outline-primary my-2 my-sm-0 rounded-circle"
           data-toggle="tooltip"
           data-placement="bottom"

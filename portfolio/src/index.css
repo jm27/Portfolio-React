@@ -54,16 +54,16 @@
 .profile {
   color: #ffffff;
   background: #7510f7;
-  height: 41em;
+  height: 43em;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 1fr;
   gap: 0px;
 }
 .container-profile {
   grid-column: 1;
   grid-row: 1;
-  margin-top: auto;
+  margin-top: 4em;
 }
 .profile-title {
   font-family: "Fira Code", monospace;

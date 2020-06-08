@@ -111,6 +111,9 @@ body {
 .card:hover .card-img-overlay{
   opacity: 1;
 }
+.card-link{
+  font-size: x-large;
+}
 /* Media Query */
 @media only screen and (max-width: 600px) {
   #accesories {

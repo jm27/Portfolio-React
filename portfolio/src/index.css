@@ -1,4 +1,4 @@
-body{
+body {
   font-family: "Roboto Slab", serif;
 }
 
@@ -37,11 +37,11 @@ body{
 .hr-intro {
   margin-left: 9em;
   margin-right: 9em;
-  border-color: #7510f7!important;
-    border-top-color: #7510f7 !important;
-    border-right-color: #7510f7 !important;
-    border-bottom-color: #7510f7 !important;
-    border-left-color: #7510f7 !important;
+  border-color: #7510f7 !important;
+  border-top-color: #7510f7 !important;
+  border-right-color: #7510f7 !important;
+  border-bottom-color: #7510f7 !important;
+  border-left-color: #7510f7 !important;
 }
 #accs {
   grid-column: 1;
@@ -74,13 +74,21 @@ body{
 .description {
   font-size: large;
 }
-.btn-outline-light:hover{
-  color:#7510f7!important;
+.btn-outline-light:hover {
+  color: #7510f7 !important;
 }
 
-.resume{
+.resume {
   font-size: large;
   font-weight: 500;
+}
+
+/* Section Portfolio */
+.jumbotron-portfolio {
+  margin-top: -15em;
+  margin-right: 3.5%;
+  margin-left: 3.5%;
+  background-color: #ffffff;
 }
 
 /* Media Query */
@@ -93,7 +101,10 @@ body{
     margin-left: 0;
     margin-right: 0;
   }
-  .container-profile{
-    width: 100%
+  .container-profile {
+    width: 100%;
+  }
+  .jumbotron-portfolio {
+    margin-top: -10em;
   }
 }

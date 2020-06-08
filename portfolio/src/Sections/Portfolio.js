@@ -7,9 +7,7 @@ const Portfolio = () => (
         mb-4"
     >
       <h2 id="title">My recent work</h2>
-      <div className='projects'>
-          
-      </div>
+      <div className="projects"></div>
     </div>
   </section>
 );

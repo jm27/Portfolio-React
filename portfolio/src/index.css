@@ -90,7 +90,27 @@ body {
   margin-left: 3.5%;
   background-color: #ffffff;
 }
+/* Card */
+.card{
+  width: 390px;
+}
+.card-img-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #141c3a;
+  
+}
 
+.card:hover .card-img-overlay{
+  opacity: 1;
+}
 /* Media Query */
 @media only screen and (max-width: 600px) {
   #accesories {
@@ -106,5 +126,8 @@ body {
   }
   .jumbotron-portfolio {
     margin-top: -10em;
+  }
+  .card{
+    width: 300px;
   }
 }

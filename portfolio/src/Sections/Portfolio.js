@@ -7,7 +7,12 @@ const Portfolio = () => (
       className="jumbotron jumbotron-portfolio
         mb-4"
     >
-      <h2 id="title">My recent work</h2>
+      <h2 id="title">
+        My recent work
+        <span role="img" aria-label="hidden">
+          🛠️
+        </span>
+      </h2>
       <div className="projects">
         <Card
           className="e-com-card"

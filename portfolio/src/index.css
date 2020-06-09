@@ -84,35 +84,85 @@ body {
 }
 
 /* Section Portfolio */
+#title {
+  margin-bottom: 2.5rem;
+  margin-top: -24px;
+}
 .jumbotron-portfolio {
   margin-top: -15em;
   margin-right: 3.5%;
   margin-left: 3.5%;
   background-color: #ffffff;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  border-radius: 12px;
+  border-color: #141c3a;
+}
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1em;
+}
+/* Projects Grid */
+.e-com-card {
+  grid-column: 1;
+  grid-row: 1;
+}
+.crystal-card {
+  grid-column: 2;
+  grid-row: 1;
+}
+.css-card {
+  grid-column: 3;
+  grid-row: 1;
+}
+.etch-card {
+  grid-column: 1;
+  grid-row: 2;
+}
+.clicky-card {
+  grid-column: 2;
+  grid-row: 2;
+}
+.burger-card {
+  grid-column: 3;
+  grid-row: 2;
 }
 /* Card */
-.card{
-  width: 390px;
+.card {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
 }
-.card-img-overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #141c3a;
-  
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.8s ease;
+  background-color: #141c3a;
 }
 
-.card:hover .card-img-overlay{
+.card:hover .card-img-overlay {
   opacity: 1;
 }
-.card-link{
+.card:hover .card-img {
+  transform: scale(1.5);
+
+  transition: transform 0.5s;
+}
+
+.card-link {
   font-size: x-large;
+}
+.card-img {
+  height: 100%;
+  width: 100%;
 }
 /* Media Query */
 @media only screen and (max-width: 600px) {
@@ -130,7 +180,41 @@ body {
   .jumbotron-portfolio {
     margin-top: -10em;
   }
-  .card{
-    width: 300px;
+  #title {
+    margin-top: 0;
+  }
+  .card-img-overlay {
+    font-size: medium;
+  }
+  /* Project Grid */
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 16em);
+  }
+  /* Projects Grid */
+  .e-com-card {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .crystal-card {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .css-card {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .etch-card {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  .clicky-card {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .burger-card {
+    grid-column: 1;
+    grid-row: 6;
   }
 }

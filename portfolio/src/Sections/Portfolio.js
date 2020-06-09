@@ -10,6 +10,7 @@ const Portfolio = () => (
       <h2 id="title">My recent work</h2>
       <div className="projects">
         <Card
+          className="e-com-card"
           cardImg={require("../media/e-commerce.jpg")}
           cardTitle="E-commerce"
           cardText="
@@ -18,6 +19,7 @@ const Portfolio = () => (
           repoLink="https://github.com/jm27/E-Commerce-MERN"
         ></Card>
         <Card
+          className="crystal-card"
           cardImg={require("../media/crystal-React.jpg")}
           cardTitle="Crystal React Game"
           cardText="Crystal game where you have to guess the number that each crystal represent. Built with React.js and CSS"
@@ -25,6 +27,7 @@ const Portfolio = () => (
           repoLink="https://github.com/jm27/React-Crystals"
         ></Card>
         <Card
+          className="css-card"
           cardImg={require("../media/css-grid-2.jpg")}
           cardTitle="CSS Grid Playground"
           cardText="Playground for Css Grid, An application with 10 different CSS Grid examples. Built with HTML and CSS"
@@ -32,6 +35,7 @@ const Portfolio = () => (
           repoLink="https://github.com/jm27/Css-Grid-pg"
         ></Card>
         <Card
+          className="etch-card"
           cardImg={require("../media/etch-a-sketch.jpg")}
           cardTitle="Etch-A-Sketch"
           cardText="This game is going to take you back to your childhood. Built with JavaScript, CSS and HTML.
@@ -40,6 +44,7 @@ const Portfolio = () => (
           repoLink="https://github.com/jm27/Etch-A-Sketch"
         ></Card>
         <Card
+          className="clicky-card"
           cardImg={require("../media/clicky-game.png")}
           cardTitle="React Clicky-Game"
           cardText="A game of memory where you have to click different images of Programming languages, Built with React.js and CSS"
@@ -47,9 +52,10 @@ const Portfolio = () => (
           repoLink="https://github.com/jm27/react-clicky-game"
         ></Card>
         <Card
+          className="burger-card"
           cardImg={require("../media/burger.png")}
           cardTitle="Eat-the-Burger"
-          cardText="CRUD App bild a burger of your choice. Built with JavaScript, CSS, HTMl and SQL DB"
+          cardText="CRUD App where you can build a burger of your choice. Built with JavaScript, CSS, HTML and SQL DB"
           deployedLink="https://burger-app-jm27.herokuapp.com/"
           repoLink="https://github.com/jm27/burger"
         ></Card>

@@ -17,6 +17,7 @@ const Intro = () => (
               "Web Developer",
               "Teamworker",
               "Great communication skills",
+              'Lifelong learner',
               'Strong attention to detail',
               'Multitasker',
               "I like solving problems",

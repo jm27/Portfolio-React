@@ -164,6 +164,12 @@ body {
   height: 100%;
   width: 100%;
 }
+
+/* Footer */
+.footer {
+  font-size: large;
+}
+
 /* Media Query */
 @media only screen and (max-width: 600px) {
   #accesories {
@@ -178,7 +184,7 @@ body {
     width: 100%;
   }
   .jumbotron-portfolio {
-    margin-top: -10em;
+    margin-top: -8em;
   }
   #title {
     margin-top: 0;

@@ -42,7 +42,7 @@ const Profile = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        Check my Resume <i class="fas fa-file-alt"></i>
+        Check my Resume <i className="fas fa-file-alt"></i>
       </a>
     </div>
   </section>

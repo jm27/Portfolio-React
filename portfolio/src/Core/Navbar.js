@@ -1,21 +1,25 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 const Navbar = () => (
   <div>
     <nav className="navbar navbar-light bg-none">
-      <a
-        className="navbar-brand"
-        href="https://fontawesome.com/icons/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i
-          id="spin"
-          className="fa fa-cog fa-spin fa-3x fa-fw"
-          aria-hidden="true"
-        ></i>
-      </a>
+      <Fade triggerOnce duration={800} direction="left">
+        <a
+          className="navbar-brand"
+          href="https://fontawesome.com/icons/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i
+            id="spin"
+            className="fa fa-cog fa-spin fa-3x fa-fw"
+            aria-hidden="true"
+          ></i>
+        </a>
+      </Fade>
       <div>
+      <Fade triggerOnce duration={800} direction="right">
         <a
           href="mailto:jme2791@gmail.com?Subject=Hello"
           target="_blank"
@@ -49,6 +53,7 @@ const Navbar = () => (
         >
           <i className="fab fa-linkedin-in"></i>
         </a>
+        </Fade>
       </div>
     </nav>
   </div>

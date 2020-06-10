@@ -1,9 +1,13 @@
 import React from "react";
+import { Zoom } from "react-awesome-reveal";
+
 
 const Footer = () => (
-  <footer class="footer">
-    <div class="footer-copyright text-center py-3">
+  <footer className="footer">
+      <Zoom delay={500} duration={800}>
+    <div className="footer-copyright text-center py-3">
       © 2020 Copyright:
+      
       <a
         href="https://github.com/jm27"
         target="_blank"
@@ -16,6 +20,7 @@ const Footer = () => (
         <i className="fab fa-github-alt"></i>
       </a>
     </div>
+    </Zoom>
   </footer>
 );
 

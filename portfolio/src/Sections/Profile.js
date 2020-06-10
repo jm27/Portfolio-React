@@ -1,9 +1,12 @@
 import React from "react";
+import { Shake } from "react-awesome-reveal";
 
 const Profile = () => (
   <section className="profile justify-content-center text-center">
     <div className="container container-profile">
+    <Shake  duration={800}>
       <h1 className="mt-4 profile-title">Hello World!</h1>
+      </Shake>
       <hr className="border-white" />
       <p className="description">
         Hi

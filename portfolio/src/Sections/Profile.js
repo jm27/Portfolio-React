@@ -34,7 +34,7 @@ const Profile = () => (
         .
         <br /> With newly developed skills{" "}
         <span role="img" aria-label="hidden">
-          🧰
+          &#129520;
         </span>{" "}
         in HTML, CSS, JavaScript, Node.js, Express.js, React.js, SQL, MongoDB,
         Responsive web design

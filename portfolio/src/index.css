@@ -24,7 +24,7 @@ body {
 /* Section intro */
 .intro {
   color: #141c3a;
-  height: 41em;
+  height: 37.6em;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
@@ -50,7 +50,12 @@ body {
 #name {
   font-family: "Fira Code", monospace;
 }
-
+#picture{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
 /* Section Profile */
 .profile {
   color: #ffffff;
@@ -176,6 +181,12 @@ body {
     width: 100%;
     height: fit-content;
   }
+  .intro{
+    height: 37.5em;
+  }
+  .container-intro{
+    margin-top: 1.5em;
+  }
   .hr-intro {
     margin-left: 0;
     margin-right: 0;
@@ -191,6 +202,9 @@ body {
   }
   .card-img-overlay {
     font-size: medium;
+  }
+  #typewriter{
+    height: 66px;
   }
   /* Project Grid */
   .projects {

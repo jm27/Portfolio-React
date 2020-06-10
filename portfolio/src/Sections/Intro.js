@@ -6,14 +6,13 @@ const Intro = () => (
   <section className="intro justify-content-center text-center">
     <div
       className="container-fluid container-intro
-        mb-4"
+        "
     >
       <Fade triggerOnce duration={800} delay={500} direction="top">
-        <img alt="anon" src={require("../media/anon.png")}></img>
-
+          <img alt="anon" id='picture' src={require("../media/pp-2.png")}></img>
         <h1 id="name">Jesus Esquer</h1>
         <hr className="hr-intro"></hr>
-        <h3>
+        <h3 id='typewriter'>
           <Typewriter
             options={{
               strings: [

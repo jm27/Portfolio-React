@@ -23,8 +23,8 @@ body {
 }
 /* Section intro */
 .intro {
-  color: #141c3a;
-  height: 37.6em;
+  color: hsl(227, 49%, 15%);
+  height: 39.6em;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, 1fr);
@@ -33,6 +33,7 @@ body {
 .container-intro {
   grid-column: 1;
   grid-row: 1;
+  margin-bottom: 2em;
 }
 .hr-intro {
   margin-left: 9em;
@@ -186,6 +187,7 @@ body {
   }
   .container-intro{
     margin-top: 1.5em;
+    margin-bottom: 0;
   }
   .hr-intro {
     margin-left: 0;

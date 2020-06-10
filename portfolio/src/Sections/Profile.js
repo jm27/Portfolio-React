@@ -4,8 +4,8 @@ import { Shake } from "react-awesome-reveal";
 const Profile = () => (
   <section className="profile justify-content-center text-center">
     <div className="container container-profile">
-    <Shake  duration={800}>
-      <h1 className="mt-4 profile-title">Hello World!</h1>
+      <Shake duration={800}>
+        <h1 className="mt-4 profile-title">Hello World!</h1>
       </Shake>
       <hr className="border-white" />
       <p className="description">
@@ -27,9 +27,17 @@ const Profile = () => (
         </span>
         .<br />
         Recently completed an intensive Bootcamp from the University of Arizona
-        in Full Stack Development🎓.
-        <br /> With newly developed skills🧰 in HTML, CSS, JavaScript, Node.js,
-        Express.js, React.js, SQL, MongoDB, Responsive web design
+        in Full Stack Development{" "}
+        <span role="img" aria-label="hidden">
+          🎓
+        </span>
+        .
+        <br /> With newly developed skills{" "}
+        <span role="img" aria-label="hidden">
+          🧰
+        </span>{" "}
+        in HTML, CSS, JavaScript, Node.js, Express.js, React.js, SQL, MongoDB,
+        Responsive web design
         <span role="img" aria-label="hidden">
           &#128241;
         </span>
